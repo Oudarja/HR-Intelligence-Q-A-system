@@ -1,0 +1,42 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+
+# === Virtual Environment ===
+myenv/
+
+# === Environment Variables ===
+.env
+.env.*
+
+# === Editor Settings ===
+.vscode/
+.idea/
+
+# === Logs and Outputs ===
+*.log
+*.out
+*.err
+
+# === Jupyter Checkpoints ===
+.ipynb_checkpoints/
+
+# === Build ===
+build/
+dist/
+*.egg-info/
+
+# === RAG-related files ===
+rag/__pycache__/
+rag/vector_store.faiss
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Backup and Temp Files ===
+*.bak
+*.tmp
+*.swp
+*~
