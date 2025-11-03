@@ -7,19 +7,19 @@
 ## ⚙️ Tech Stack
 
 - **Frontend**:  
-  - [Streamlit](https://streamlit.io/) – For building the interactive web interface and dashboard.
+  - Streamlit – For building the interactive web interface and dashboard.
 
 - **Backend / Logic**:  
-  - [FastAPI](https://fastapi.tiangolo.com/) – High-performance backend for HR functionalities.  
-  - **FastMCP** – Modular Control Protocol built over SSE for real-time event streaming.  
-  - **Groq LLM API** – Uses `llama3-70b-8192` model for natural language understanding.  
-  - **MySQL** – Relational database for storing employee and attendance data.  
-  - **ZK Library** – Python SDK to connect with ZKTeco biometric attendance devices.
+  - FastAPI – High-performance backend for HR functionalities.  
+  - FastMCP – Model Context Protocol built over SSE for real-time event streaming.  
+  - Groq LLM API – Uses `llama3-70b-8192` model for natural language understanding.  
+  - MySQL – Relational database for storing employee and attendance data.  
+  - ZK Library – Python SDK to connect with ZKTeco biometric attendance devices.
 
 - **RAG (Retrieval-Augmented Generation)**:  
-  - [SentenceTransformers](https://www.sbert.net/) – For semantic embeddings.  
+  - SentenceTransformers – For semantic embeddings.  
   - **Model Used**: `all-MiniLM-L6-v2` – Lightweight and efficient transformer for encoding schema text.  
-  - [FAISS](https://faiss.ai/) – Facebook AI Similarity Search for fast vector indexing and retrieval.
+  - FAISS – Facebook AI Similarity Search for fast vector indexing and retrieval.
 
 ---
 
@@ -79,20 +79,20 @@
 
 ### 2. Clone the Repository
 
-```bash
+```
 git clone "https://gitlab.com/cloudlyio/hr-intelligence-agent.git"
 ```
 
 ### 3. Set Up a Virtual Environment
 
-```bash
+```
 python -m venv myenv
 myenv\Scripts\activate
 ```
 
 ### 4. Install Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -100,7 +100,8 @@ pip install -r requirements.txt
 
 The `.env` file is used to store sensitive configuration values (e.g., API keys, passwords) securely. It should be listed in `.gitignore` to prevent accidental exposure when pushing to GitHub. Example: storing an API key in `.env`.
 
-```GROQ_API_KEY = your_groq_api_key
+```
+GROQ_API_KEY = your_groq_api_key
 ```
 
 ### 6. Run the full project
