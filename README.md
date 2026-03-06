@@ -1,4 +1,4 @@
-# HR-Intelligence-Agent
+# HR-Intelligence-Q&A-system
 
 **HR-Intelligence-Agent** is an AI-powered HR assistant that connects to ZKTeco biometric devices to extract and analyze employee attendance data. It supports natural language queries, generates statistical insights from the HR database, and provides a secure, scalable foundation for intelligent attendance and identity management.
 
